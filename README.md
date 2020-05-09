@@ -21,7 +21,7 @@ npm install
 To run the project locally, use the `start` command.
 
 ```bash
-npm start
+npm run start:dev
 ```
 
 ## Notes
