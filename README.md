@@ -1,10 +1,14 @@
 # Node-Farm
 
-This is a Demo Project made with [Udemy Complete Node Bootcamp](https://github.com/jonasschmedtmann/complete-node-bootcamp).
+This is a Demo Project made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
 
 ## Purpose
 
 Small Introduction to NodeJS
+
+## Notes
+
+https://github.com/chlzslvdr/Node-Farm/wiki/Notes
 
 ## Resources
 
