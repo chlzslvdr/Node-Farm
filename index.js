@@ -1,5 +1,6 @@
 const fs = require('fs');
 const http = require('http');
+const url = require('url');
 const port = process.env.PORT || 8000;
 
 
@@ -31,7 +32,19 @@ const port = process.env.PORT || 8000;
 ///////////////////// SERVER /////////////////////
 
 const server = http.createServer((req, res) => {
-    res.end('hello world');
+    const pathName = req.url;
+
+    if (pathName === '/' || pathName === '/overview') {
+        res.end('OVERVIEW');
+    } else if (pathName === '/product') {
+        res.end('PRODUCT');
+    } else {
+        res.writeHead(404, {
+            'Content-type': 'text/html',
+            'my-own-header': 'hello-world'
+        });
+        res.end('<h1>Page not found!</h1>');
+    }
 });
 
 server.listen(port,() => {
