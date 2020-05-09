@@ -101,3 +101,6 @@ const server = http.createServer((req, res) => {
     }
 });
 ```
+
+**API** is a service to request data.
+**__dirname** always translate to the directory in which the script were currently executing is located.

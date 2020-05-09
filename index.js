@@ -31,6 +31,9 @@ const port = process.env.PORT || 8000;
 
 ///////////////////// SERVER /////////////////////
 
+const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
+const dataObj = JSON.parse(data);
+
 const server = http.createServer((req, res) => {
     const pathName = req.url;
 
@@ -38,6 +41,11 @@ const server = http.createServer((req, res) => {
         res.end('OVERVIEW');
     } else if (pathName === '/product') {
         res.end('PRODUCT');
+    } else if (pathName === '/api') {
+            res.writeHead(200, {
+                'Content-type': 'application/json'
+            });
+            res.end(data);
     } else {
         res.writeHead(404, {
             'Content-type': 'text/html',
