@@ -8,7 +8,7 @@ Small Introduction to NodeJS
 
 ## Notes
 
-https://github.com/chlzslvdr/Node-Farm/wiki/Notes
+[Notes on NodeJS](Notes.md)
 
 ## Resources
 
