@@ -6,7 +6,8 @@
     "author": "Chelzea Salvador",
     "license": "ISC",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "node index.js",
+        "start:dev": "nodemon index.js"
     },
     "dependencies": {
         "slugify": "1.4.0"
