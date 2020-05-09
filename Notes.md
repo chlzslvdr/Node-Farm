@@ -77,7 +77,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port,() => {
-    console.log(`Listening on port `+port);
+    console.log(`🚀Listening on port `+port);
 });
 ```
 
@@ -103,4 +103,5 @@ const server = http.createServer((req, res) => {
 ```
 
 **API** is a service to request data.
+
 **__dirname** always translate to the directory in which the script were currently executing is located.

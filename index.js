@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
                 'Content-type': 'application/json'
             });
             res.end(data);
-    } else {
+        } else {
         res.writeHead(404, {
             'Content-type': 'text/html',
             'my-own-header': 'hello-world'
@@ -56,5 +56,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port,() => {
-    console.log(`Listening on port `+port);
+    console.log(`🚀 Listening on port `+port);
 });
