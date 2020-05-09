@@ -8,6 +8,22 @@ This is a [Demo Project](https://node-farm-demo.herokuapp.com) made with [Udemy 
 
 Small Introduction to NodeJS
 
+## Installation
+
+Clone and run npm install to install the dependencies.
+
+```bash
+npm install
+```
+
+## Start locally
+
+To run the project locally, use the `start` command.
+
+```bash
+npm start
+```
+
 ## Notes
 
 [Notes on NodeJS](Notes.md)

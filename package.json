@@ -1,9 +1,17 @@
 {
     "name": "node-farm",
     "version": "1.0.0",
-    "description": "Introduction to NodeJS",
+    "description": "Learning NodeJS",
     "main": "index.js",
+    "author": "Chelzea Salvador",
+    "license": "ISC",
     "scripts": {
-        "start": "node index.js"
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "slugify": "1.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.3"
     }
 }
