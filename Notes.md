@@ -66,3 +66,17 @@ fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
 });
 console.log('Will read file!');
 ```
+
+### CREATING A SIMPLE WEB SERVER
+```javascript
+const http = require('http');
+const port = process.env.PORT || 8000;
+
+const server = http.createServer((req, res) => {
+    res.end('hello world');
+});
+
+server.listen(port,() => {
+    console.log(`Listening on port `+port);
+});
+```
