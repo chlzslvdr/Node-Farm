@@ -1,8 +1,6 @@
-[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://node-farm-demo.herokuapp.com)
-
 # Node-Farm
 
-This is a [Demo Project](https://node-farm-demo.herokuapp.com) made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
+This is a [Demo Project](https://demo-node-farm.onrender.com) made with [Udemy Complete Node Bootcamp Course](https://github.com/jonasschmedtmann/complete-node-bootcamp).
 
 ## Purpose
 
